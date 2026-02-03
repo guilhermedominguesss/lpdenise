@@ -212,7 +212,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* SECTION 06 - CONFIAN?A & ACOLHIMENTO */}
+      {/* SECTION 06 - CONFIANÇA & ACOLHIMENTO */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
@@ -225,11 +225,11 @@ export default function LandingPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { title: "Ambiente Acolhedor", category: "Clínica", src: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop" },
-              { title: "Atendimento Premium", category: "Experiência", src: "https://images.unsplash.com/photo-1445510861639-5651173bc5d5?q=80&w=1974&auto=format&fit=crop" },
-              { title: "Tecnologia de Ponta", category: "Equipamentos", src: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2052&auto=format&fit=crop" },
-              { title: "Cuidado Individualizado", category: "Protocolos", src: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1932&auto=format&fit=crop" },
+            [{
+              { title: "Atendimento Premium", category: "Experiência", src: "/images/experiencia.jpeg" },
+              { title: "Clínica Premium", category: "Clínica", src: "/images/clínica.jpeg" },
+              { title: "Tecnologia de Ponta", category: "Equipamentos", src: "/images/equipamentos.jpeg" },
+              { title: "Ambiente Acolhedor", category: "Ambiente", src: "/images/ambiente.jpeg" },
             ].map((item, i) => (
               <motion.div
                 key={i}
