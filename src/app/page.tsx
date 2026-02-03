@@ -225,7 +225,7 @@ export default function LandingPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            [{
+            {[
               { title: "Atendimento Premium", category: "Experiência", src: "/images/experiencia.jpeg" },
               { title: "Clínica Premium", category: "Clínica", src: "/images/clínica.jpeg" },
               { title: "Tecnologia de Ponta", category: "Equipamentos", src: "/images/equipamentos.jpeg" },
