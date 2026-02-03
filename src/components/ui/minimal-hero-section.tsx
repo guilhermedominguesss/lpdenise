@@ -1,5 +1,5 @@
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 
 const STYLE_ID = "bento3-animations";
 const HERO_IMAGE_URL = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop";
@@ -247,10 +247,10 @@ function Bento3Section() {
 
   const palette = useMemo(() => palettes[theme], [theme]);
 
-  const containerStyle = useMemo<React.CSSProperties>(
+  const containerStyle = useMemo<CSSProperties>(
     () => ({
       "--bento3-grid-color": palette.gridColor,
-    } as React.CSSProperties),
+    } as CSSProperties),
     [palette.gridColor]
   );
 
@@ -296,7 +296,7 @@ function Bento3Section() {
                 Sua melhor versão, com a sofisticação que você merece.
               </h1>
               <p className={`max-w-sm text-sm ${palette.muted}`}>
-                Uma abordagem minimalista e refinada para realçar sua beleza natural, focada em detalhes que fazem toda a diferença.
+                Protocolos exclusivos de Botox e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colágeno em um ambiente acolhedor na Vila Alpina, SP.
               </p>
             </div>
             <div className="bento3-cta">

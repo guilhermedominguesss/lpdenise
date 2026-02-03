@@ -1,18 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { 
-  MessageSquare, 
-  MapPin, 
-  Clock, 
-  Instagram, 
+import {
+  MessageSquare,
   Star,
   ShieldCheck,
   Heart,
-  Sparkles
+  Sparkles,
 } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/ui/cards-1";
 import { HoverFooter } from "@/components/ui/hover-footer";
@@ -175,14 +171,14 @@ export default function LandingPage() {
                   A ciência por trás do seu <span className="text-rose-burnt">melhor momento.</span>
                 </h2>
                 <p className="text-lg text-stone-600 font-light leading-relaxed">
-                  Com mais de 6 anos de experiência, a Dra. Denise une o rigor técnico da estética avançada a um olhar artístico e humanizado. Cada procedimento é uma busca pela harmonia que já existe em você.
+                  Com mais de 8 anos de experiência, a Dra. Denise une o rigor técnico da estética avançada a um olhar artístico e humanizado. Cada procedimento é uma busca pela harmonia que já existe em você.
                 </p>
               </div>
               
               <div className="grid sm:grid-cols-2 gap-10">
                 {[
                   { icon: ShieldCheck, title: "Protocolos Exclusivos", text: "Atendimento 100% personalizado para suas necessidades." },
-                  { icon: Star, title: "Trajetória", text: "6 anos transformando vidas através da estética." },
+                  { icon: Star, title: "Trajetória", text: "8 anos transformando vidas através da estética." },
                   { icon: Heart, title: "Olhar Humanizado", text: "Cuidado genuíno em cada etapa da sua jornada." },
                   { icon: Sparkles, title: "Tecnologia de Ponta", text: "Os melhores equipamentos e técnicas do mercado." }
                 ].map((item, i) => (
