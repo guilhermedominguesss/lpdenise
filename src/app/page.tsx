@@ -217,17 +217,17 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-4xl lg:text-5xl font-serif text-stone-800 mb-6">
-              Aqui, voc? se sente segura desde o primeiro contato.
+              Aqui, você se sente segura desde o primeiro contato.
             </h2>
             <p className="text-xl text-stone-500 font-light max-w-2xl mx-auto italic">
-              O que mais escuto das minhas pacientes n?o ? sobre o procedimento - ? sobre carinho, confian?a e tranquilidade.
+              O que mais escuto das minhas pacientes não é sobre o procedimento, é sobre carinho, confiança e tranquilidade.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Ambiente Acolhedor", category: "Cl?nica", src: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop" },
-              { title: "Atendimento Premium", category: "Experi?ncia", src: "https://images.unsplash.com/photo-1445510861639-5651173bc5d5?q=80&w=1974&auto=format&fit=crop" },
+              { title: "Ambiente Acolhedor", category: "Clínica", src: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop" },
+              { title: "Atendimento Premium", category: "Experiência", src: "https://images.unsplash.com/photo-1445510861639-5651173bc5d5?q=80&w=1974&auto=format&fit=crop" },
               { title: "Tecnologia de Ponta", category: "Equipamentos", src: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2052&auto=format&fit=crop" },
               { title: "Cuidado Individualizado", category: "Protocolos", src: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1932&auto=format&fit=crop" },
             ].map((item, i) => (
@@ -260,7 +260,7 @@ export default function LandingPage() {
             transition={{ duration: 0.8 }}
             className="text-stone-800 text-center text-4xl lg:text-7xl font-serif tracking-tight leading-[1.1] max-w-4xl"
           >
-            Voc? n?o precisa mudar quem voc? ?. <br />
+            Você não precisa mudar quem vocé é. <br />
             <span className="text-rose-burnt italic">Precisa apenas cuidar de si.</span>
           </motion.h2>
 
@@ -276,7 +276,7 @@ export default function LandingPage() {
               className="bg-rose-burnt hover:bg-stone-800 text-white rounded-full px-12 h-16 text-xl transition-all duration-500 shadow-xl shadow-rose-burnt/10 font-medium"
             >
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-                Agendar minha avalia??o
+                Agendar minha avaliação
               </a>
             </Button>
           </motion.div>
