@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Cormorant_Garamond, Montserrat, Fira_Code, Antic } from "next/font/google";
 import "./globals.css";
 
@@ -25,8 +25,39 @@ const antic = Antic({
 });
 
 export const metadata: Metadata = {
-  title: "Dra. Denise | Estética Médica Premium",
-  description: "Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.",
+  metadataBase: new URL(\"https://deniseestetica.com.br\"),
+  title: {
+    default: \"Dra. Denise | Estética Médica Premium\",
+    template: \"%s | Dra. Denise\",
+  },
+  description:
+    \"Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.\",
+  alternates: {
+    canonical: \"/\",
+  },
+  openGraph: {
+    type: \"website\",
+    url: \"https://deniseestetica.com.br/\",
+    title: \"Dra. Denise | Estética Médica Premium\",
+    description:
+      \"Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.\",
+    siteName: \"Dra. Denise\",
+    locale: \"pt_BR\",
+  },
+  twitter: {
+    card: \"summary_large_image\",
+    title: \"Dra. Denise | Estética Médica Premium\",
+    description:
+      \"Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.\",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -42,3 +73,4 @@ export default function RootLayout({
     </html>
   );
 }
+
