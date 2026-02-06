@@ -25,30 +25,30 @@ const antic = Antic({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(\"https://deniseestetica.com.br\"),
+  metadataBase: new URL("https://deniseestetica.com.br"),
   title: {
-    default: \"Dra. Denise | Estética Médica Premium\",
-    template: \"%s | Dra. Denise\",
+    default: "Dra. Denise | Estética Médica Premium",
+    template: "%s | Dra. Denise",
   },
   description:
-    \"Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.\",
+    "Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.",
   alternates: {
-    canonical: \"/\",
+    canonical: "/",
   },
   openGraph: {
-    type: \"website\",
-    url: \"https://deniseestetica.com.br/\",
-    title: \"Dra. Denise | Estética Médica Premium\",
+    type: "website",
+    url: "https://deniseestetica.com.br/",
+    title: "Dra. Denise | Estética Médica Premium",
     description:
-      \"Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.\",
-    siteName: \"Dra. Denise\",
-    locale: \"pt_BR\",
+      "Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.",
+    siteName: "Dra. Denise",
+    locale: "pt_BR",
   },
   twitter: {
-    card: \"summary_large_image\",
-    title: \"Dra. Denise | Estética Médica Premium\",
+    card: "summary_large_image",
+    title: "Dra. Denise | Estética Médica Premium",
     description:
-      \"Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.\",
+      "Gerenciar o envelhecimento com leveza, respeito à identidade e beleza real.",
   },
   robots: {
     index: true,
