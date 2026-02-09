@@ -66,7 +66,7 @@ export default function LandingPage() {
               {
                 title: "Rejuvenescimento Facial",
                 desc: "O segredo do rejuvenescimento natural. Suavize linhas de expressão com precisão milimétrica, preservando sua expressividade e revelando um olhar descansado e jovial.",
-                image: "/images/botox.jpg",
+                image: "/images/rejuvenescimento.jpg",
                 cols: "md:col-span-7",
                 number: "01",
               },

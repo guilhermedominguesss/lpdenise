@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 
 const STYLE_ID = "bento3-animations";
-const HERO_IMAGE_URL = "/images/rejuvenescimento.jpg";
+const HERO_IMAGE_URL = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop";
 const WHATSAPP_LINK =
   "https://wa.me/5511945495181?text=Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os";
 
@@ -296,7 +296,7 @@ function Bento3Section() {
                 Sua melhor versão, com a sofisticação que você merece.
               </h1>
               <p className={`max-w-sm text-sm ${palette.muted}`}>
-                Protocolos exclusivos de toxina botulínica e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colágeno em um ambiente acolhedor na Vila Alpina, SP.
+                Protocolos exclusivos de Rejuvenescimento Facial e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colágeno em um ambiente acolhedor na Vila Alpina, SP.
               </p>
             </div>
             <div className="bento3-cta">
@@ -329,6 +329,7 @@ function Bento3Section() {
 
 export default Bento3Section;
 export { Bento3Section };
+
 
 
 
