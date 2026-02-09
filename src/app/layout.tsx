@@ -79,6 +79,29 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'AW-17931812231');`}
         </Script>
+        <Script id="google-gtag-page-conversion">
+          {`gtag('event', 'conversion', {
+  'send_to': 'AW-17931812231/HYl7COuTm_MbEIf7xuZC',
+  'value': 1.0,
+  'currency': 'BRL'
+});`}
+        </Script>
+        <Script id="google-gtag-report-conversion">
+          {`function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-17931812231/HYl7COuTm_MbEIf7xuZC',
+    'value': 1.0,
+    'currency': 'BRL',
+    'event_callback': callback
+  });
+  return false;
+}`}
+        </Script>
       </head>
       <body className={`${cormorant.variable} ${montserrat.variable} ${firaCode.variable} ${antic.variable} font-sans antialiased text-stone-800`}>
         {children}
