@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 
 const STYLE_ID = "bento3-animations";
-const HERO_IMAGE_URL = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop";
+const HERO_IMAGE_URL = "/images/rejuvenescimento.jpg";
 const WHATSAPP_LINK =
   "https://wa.me/5511945495181?text=Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os";
 
@@ -315,7 +315,7 @@ function Bento3Section() {
             </div>
           </div>
           <figure className="bento3-image">
-            <img src={HERO_IMAGE_URL} alt="Minimal monochrome mood" loading="lazy" />
+            <img src={HERO_IMAGE_URL} alt="Rejuvenescimento facial" loading="lazy" />
           </figure>
         </div>
         <div className={`bento3-footnote mt-10 ${palette.muted}`}>

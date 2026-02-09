@@ -157,17 +157,17 @@ export function HoverFooter() {
     {
       title: "Tratamentos",
       links: [
-        { label: "Toxina Botulínica", href: "#tratamentos" },
-        { label: "HarmonizaÃ§Ã£o Facial", href: "#tratamentos" },
+        { label: "Rejuvenescimento Facial", href: "#tratamentos" },
+        { label: "Harmonização Facial", href: "#tratamentos" },
         { label: "Bioestimuladores", href: "#tratamentos" },
-        { label: "HarmonizaÃ§Ã£o GlÃºtea", href: "#tratamentos" },
+        { label: "Harmonização Glútea", href: "#tratamentos" },
       ],
     },
     {
-      title: "Links Ãšteis",
+      title: "Links Úteis",
       links: [
         { label: "Sobre", href: "#sobre" },
-        { label: "AvaliaÃ§Ãµes", href: "#avaliacoes" },
+        { label: "Avaliações", href: "#avaliacoes" },
         {
           label: "Agendar Agora",
           href: "https://wa.me/5511945495181?text=Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os",
@@ -186,7 +186,7 @@ export function HoverFooter() {
     },
     {
       icon: <MapPin size={18} className="text-[#C5A059]" />,
-      text: "R. Costa Barros, 1174 - Vila Alpina, SÃ£o Paulo - SP",
+      text: "R. Costa Barros, 1174 - Vila Alpina, São Paulo - SP",
     },
   ];
 
@@ -206,7 +206,7 @@ export function HoverFooter() {
               <span className="text-white text-3xl font-serif font-bold italic tracking-wider">Dra. Denise</span>
             </div>
             <p className="text-sm leading-relaxed text-stone-400">
-              Especialista em estÃ©tica avanÃ§ada, dedicada a realÃ§ar sua beleza natural com seguranÃ§a e sofisticaÃ§Ã£o.
+              Especialista em estética avançada, dedicada a realçar sua beleza natural com segurança e sofisticação.
             </p>
           </div>
 
@@ -289,4 +289,5 @@ export function HoverFooter() {
     </footer>
   );
 }
+
 
