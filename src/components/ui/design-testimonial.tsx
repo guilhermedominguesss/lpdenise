@@ -7,20 +7,20 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const treatments = [
   {
-    description: "A aplicaÃ§Ã£o de toxina botulÃ­nica suaviza as linhas de expressÃ£o, prevenindo rugas e proporcionando um olhar mais descansado e rejuvenescido.",
+    description: "A aplicação de toxina botulínica suaviza as linhas de expressão, prevenindo rugas e proporcionando um olhar mais descansado e rejuvenescido.",
     title: "Rejuvenescimento Facial",
   },
   {
-    description: "Realce a beleza dos seus lÃ¡bios com volume, contorno e hidrataÃ§Ã£o, respeitando sempre a harmonia natural do seu rosto.",
+    description: "Realce a beleza dos seus lábios com volume, contorno e hidratação, respeitando sempre a harmonia natural do seu rosto.",
     title: "Preenchimento Labial",
   },
   {
-    description: "TÃ©cnica avanÃ§ada para melhorar a projeÃ§Ã£o, o contorno e a firmeza da regiÃ£o glÃºtea, garantindo resultados elegantes e seguros.",
-    title: "HarmonizaÃ§Ã£o GlÃºtea",
+    description: "Técnica avançada para melhorar a projeção, o contorno e a firmeza da região glútea, garantindo resultados elegantes e seguros.",
+    title: "Harmonização Glútea",
   },
 ]
 
-const tickerItems = ["Rejuvenescimento Facial", "Preenchimento Labial", "HarmonizaÃ§Ã£o de GlÃºteos"]
+const tickerItems = ["Rejuvenescimento Facial", "Preenchimento Labial", "Harmonização de Glúteos"]
 
 export function Specialties() {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -169,7 +169,7 @@ export function Specialties() {
             <div className="flex items-center justify-between mt-auto">
                <div className="flex items-center gap-4">
                   <div className="w-12 h-px bg-rose-burnt/30" />
-                  <span className="text-sm font-serif italic text-stone-400">ExcelÃªncia em EstÃ©tica</span>
+                  <span className="text-sm font-serif italic text-stone-400">Excelência em Estética</span>
                </div>
 
               {/* Navigation buttons */}
@@ -243,7 +243,7 @@ export function Specialties() {
           >
             {[...Array(10)].map((_, i) => (
               <span key={i} className="mx-8 uppercase">
-                {tickerItems.join(" â€¢ ")} â€¢
+                {tickerItems.join(" • ")} â€¢
               </span>
             ))}
           </motion.div>
@@ -252,4 +252,5 @@ export function Specialties() {
     </div>
   )
 }
+
 
