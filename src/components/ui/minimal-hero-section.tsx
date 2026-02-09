@@ -296,7 +296,7 @@ function Bento3Section() {
                 Sua melhor versão, com a sofisticação que você merece.
               </h1>
               <p className={`max-w-sm text-sm ${palette.muted}`}>
-                Protocolos exclusivos de Botox e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colágeno em um ambiente acolhedor na Vila Alpina, SP.
+                Protocolos exclusivos de toxína botulínica e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colágeno em um ambiente acolhedor na Vila Alpina, SP.
               </p>
             </div>
             <div className="bento3-cta">

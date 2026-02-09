@@ -64,7 +64,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-12">
             {[
               {
-                title: "Botox",
+                title: "Rejuvenescimento Facial",
                 desc: "O segredo do rejuvenescimento natural. Suavize linhas de expressão com precisão milimétrica, preservando sua expressividade e revelando um olhar descansado e jovial.",
                 image: "/images/botox.jpg",
                 cols: "md:col-span-7",
