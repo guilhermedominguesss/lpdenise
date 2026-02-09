@@ -7,7 +7,7 @@ import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from
 
 const treatments = [
   {
-    description: "A aplicação de toxina botulínica suaviza as linhas de expressão, prevenindo rugas e proporcionando um olhar mais descansado e rejuvenescido.",
+    description: "Suavização de linhas de expressão para um rosto mais leve, descansado e naturalmente rejuvenescido.",
     title: "Rejuvenescimento Facial",
   },
   {
@@ -252,5 +252,6 @@ export function Specialties() {
     </div>
   )
 }
+
 
 

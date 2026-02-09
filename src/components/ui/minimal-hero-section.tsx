@@ -1,4 +1,4 @@
-
+﻿
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 
 const STYLE_ID = "bento3-animations";
@@ -289,14 +289,14 @@ function Bento3Section() {
         <div className={`bento3-shell w-full max-w-6xl ${palette.card} rounded-[32px] border border-neutral-900/10 p-6 shadow-[0_24px_80px_-60px_rgba(15,15,15,0.6)] transition-colors duration-500 dark:border-white/10 sm:p-10`}>
           <div className="bento3-copy">
             <div className={`inline-flex w-fit items-center gap-3 rounded-full border px-4 py-2 text-[10px] uppercase tracking-[0.45em] ${palette.capsule}`}>
-              Experiência Exclusiva
+              ExperiÃªncia Exclusiva
             </div>
             <div className="bento3-lede">
               <h1 className={`text-3xl font-semibold leading-tight sm:text-4xl ${palette.heading}`}>
-                Sua melhor versão, com a sofisticação que você merece.
+                Sua melhor versÃ£o, com a sofisticaÃ§Ã£o que vocÃª merece.
               </h1>
               <p className={`max-w-sm text-sm ${palette.muted}`}>
-                Protocolos exclusivos de toxína botulínica e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colágeno em um ambiente acolhedor na Vila Alpina, SP.
+                Protocolos exclusivos de toxÃ­na botulÃ­nica e Preenchimento Labial focados em sutileza. Recupere a firmeza da pele com Bioestimuladores de colÃ¡geno em um ambiente acolhedor na Vila Alpina, SP.
               </p>
             </div>
             <div className="bento3-cta">
@@ -310,7 +310,7 @@ function Bento3Section() {
               </a>
             </div>
             <div className={`bento3-stats grid grid-cols-2 gap-4 text-xs uppercase tracking-[0.3em] ${palette.muted}`}>
-              <span>8+ anos de experiência</span>
+              <span>8+ anos de experiÃªncia</span>
               <span>Atendimento VIP</span>
             </div>
           </div>
@@ -319,8 +319,8 @@ function Bento3Section() {
           </figure>
         </div>
         <div className={`bento3-footnote mt-10 ${palette.muted}`}>
-          <span>Ciência. Arte. Equilíbrio.</span>
-          <span>Dra. Denise Carvalho Estética Avançada</span>
+          <span>CiÃªncia. Arte. EquilÃ­brio.</span>
+          <span>Dra. Denise Carvalho EstÃ©tica AvanÃ§ada</span>
         </div>
       </section>
     </div>
@@ -329,3 +329,4 @@ function Bento3Section() {
 
 export default Bento3Section;
 export { Bento3Section };
+
